@@ -10,5 +10,11 @@ int main() {
     cout << "Ano de nascimento: ";
     cin >> anoNasc;
     idade=anoAtual-anoNasc;
-    cout << "Você tem ou fará " << idade << " anos.";
+    cout << "Você tem " << idade << " anos de idade."<<endl; 
+	if(idade>=16){
+		cout<<"Você já pode votar!";
+	}
+	else{
+		cout<<"Você é muito jovem e não pode votar.";
+	}
 }
